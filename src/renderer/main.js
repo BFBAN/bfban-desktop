@@ -5,6 +5,7 @@ import vueElectron from 'electron'
 import App from './App'
 import router from './router'
 import store from './store'
+import i18n from './i18n'
 
 import vuetify from './plugins/vuetify'
 
@@ -21,5 +22,6 @@ new Vue({
   vuetify,
   router,
   store,
+  i18n,
   template: '<App/>'
 }).$mount('#app')

@@ -20,7 +20,16 @@ export default new Router({
       name: 'keypress',
       component: require('@/pages/setting/keypress').default
     },
-
+    {
+      path: '/signin',
+      name: 'signin',
+      component: require('@/pages/signin').default
+    },
+    {
+      path: '/report',
+      name: 'report',
+      component: require('@/pages/report/report').default
+    },
     {
       path: '*',
       redirect: '/'

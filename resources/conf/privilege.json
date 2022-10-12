@@ -1,0 +1,50 @@
+{
+  "title": "privilege",
+  "child": [
+    {
+      "value": "root",
+      "class": "",
+      "weight": 200
+    },
+    {
+      "value": "admin",
+      "class": "",
+      "weight": 40
+    },
+    {
+      "value": "super",
+      "class": "",
+      "weight": 85
+    },
+    {
+      "value": "normal",
+      "class": "",
+      "weight": 5
+    },
+    {
+      "value": "dev",
+      "class": "",
+      "weight": 20
+    },
+    {
+      "value": "test",
+      "class": "",
+      "weight": 15
+    },
+    {
+      "value": "bot",
+      "class": "",
+      "weight": 5
+    },
+    {
+      "value": "blacklisted",
+      "class": "",
+      "weight": 0
+    },
+    {
+      "value": "freezed",
+      "class": "",
+      "weight": 0
+    }
+  ]
+}
