@@ -11,6 +11,17 @@ export default new Router({
       component: require('@/pages/index/index').default
     },
     {
+      path: '/setting',
+      name: 'setting',
+      component: require('@/pages/setting/index').default
+    },
+    {
+      path: '/setting/keypress',
+      name: 'keypress',
+      component: require('@/pages/setting/keypress').default
+    },
+
+    {
       path: '*',
       redirect: '/'
     }

@@ -1,4 +1,19 @@
 html, body {
-    background-color: transparent;
-    overflow: hidden;
+    overflow: hidden !important;
+    height: 100%;
+    user-select: none;
+}
+
+#app {
+    margin: 5px;
+    text-align: center;
+    outline: none;
+    background-color: #FFFAE8;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+    height: calc(100% - 15px);
+}
+
+#app.full {
+    margin: 0 !important;
 }

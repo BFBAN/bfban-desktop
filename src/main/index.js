@@ -1,4 +1,4 @@
-import { app, BrowserWindow } from 'electron'
+import { app, BrowserWindow, Menu,Tray } from 'electron'
 import '../renderer/store'
 
 /**
@@ -19,12 +19,14 @@ function createWindow () {
    * Initial window options
    */
   mainWindow = new BrowserWindow({
-    height: 500,
-    width: 350,
+    height: 650,
+    width: 450,
     titleBarStyle: 'hidden',
+    transparent: true,
     frame: false,
     fullscreenable: false,
-    useContentSize: true,
+    resizable: false,
+    useContentSize: false,
     webPreferences: {
       nodeIntegration: true
     }

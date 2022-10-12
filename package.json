@@ -25,7 +25,9 @@
   "dependencies": {
     "@mdi/font": "^7.0.96",
     "axios": "^0.18.0",
+    "mousetrap": "^1.6.5",
     "polyfill-object.fromentries": "^1.0.1",
+    "vscroll": "^1.5.3",
     "vue": "^2.5.16",
     "vue-electron": "^1.0.6",
     "vue-router": "^3.0.1",
@@ -34,6 +36,7 @@
     "vuex-electron": "^1.0.0"
   },
   "devDependencies": {
+    "@mdi/js": "^7.0.96",
     "ajv": "^6.5.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",

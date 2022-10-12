@@ -1,19 +1,23 @@
 <template>
   <div id="app">
-    <Header></Header>
-    <v-container>
+    <v-app id="inspire">
+      <Header></Header>
       <router-view></router-view>
-    </v-container>
+    </v-app>
   </div>
 </template>
 
 <script>
 import Header from "./components/header/header.vue";
 
+import { conf } from "../renderer/assets/js/index";
+
 export default {
   name: 'bfban-desktop',
   components: {Header},
-
+  created () {
+    conf.initConf();
+  }
 }
 </script>
 
